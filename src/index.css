@@ -54,6 +54,7 @@ h1 {
 
 section {
   margin-top: 8rem;
+  height: 100vh;
 }
 /* Targeting every h2 and h5 wich is a direct child of a section */
 section > h2,
@@ -114,7 +115,7 @@ img {
 }
 /*=================== MEDIA QUERY SMALL DEVICES ===================*/
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 600px) {
   .container {
     width: var(--container-width-sm);
   }
